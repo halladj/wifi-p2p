@@ -9,12 +9,8 @@ INTERFACE="wlan0"
 #wpa_cli -i p2p-dev-wlan0 wps_pbc
 
 # Wait for initialization
-
 sleep 2
 
-# Start P2P listen mode
-#sudo wpa_cli -i p2p-dev-wlan0 p2p_listen
-#wpa_cli -i p2p-dev-wlan0 p2p_listen
 
 # Loop to continuously scan and connect
 while true; do
